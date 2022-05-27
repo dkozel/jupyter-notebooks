@@ -1,0 +1,12 @@
+name: rfnotebooks
+channels:
+  - defaults
+  - conda-forge
+  - dkozel/label/dev
+dependencies:
+  - python=3.9
+  - matplotlib
+  - numpy
+  - scikit-rf
+  - schemdraw
+  - ipykernel
