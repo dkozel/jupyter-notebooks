@@ -1,0 +1,22 @@
+# Use LaTeX to write all text
+text.usetex: True
+font.family: Palatino
+
+# Use 11pt font in plots, to match 11pt font in document
+axes.labelsize: 11
+font.size: 11
+
+# Make the legend/label fonts a little smaller
+legend.fontsize: 9
+xtick.labelsize: 9
+ytick.labelsize: 9
+
+# Colors
+axes.prop_cycle : cycler('color', ['348ABD', 'b74331', '8EBA42', 'FBC15E', '988ED5',  'FFB5B8', '777777'])
+
+## Using a rick black for basic plot elements
+axes.edgecolor : 191919
+text.color : 191919
+axes.labelcolor : 191919
+xtick.color : 191919
+ytick.color : 191919
