@@ -3,9 +3,11 @@ channels:
   - defaults
   - conda-forge
 dependencies:
-  - python=3.9
+  - python=3.8
   - matplotlib
   - numpy
+  - pandas
+  - pytables
   - scikit-rf
   - schemdraw
   - ipykernel
